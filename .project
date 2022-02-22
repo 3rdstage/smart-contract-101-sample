@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>smart-contract-dev-101-sample</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+	</buildSpec>
+	<natures>
+	</natures>
+	<filteredResources>
+		<filter>
+			<id>1645519861438</id>
+			<name></name>
+			<type>26</type>
+			<matcher>
+				<id>org.eclipse.ui.ide.multiFilter</id>
+				<arguments>1.0-projectRelativePath-matches-false-true-contracts/(.*/)?artifacts</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1645519861440</id>
+			<name></name>
+			<type>26</type>
+			<matcher>
+				<id>org.eclipse.ui.ide.multiFilter</id>
+				<arguments>1.0-projectRelativePath-matches-false-true-.*__pycache__</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1645519861442</id>
+			<name></name>
+			<type>26</type>
+			<matcher>
+				<id>org.eclipse.ui.ide.multiFilter</id>
+				<arguments>1.0-projectRelativePath-matches-false-true-run/(ganache|geth|besu)/data</arguments>
+			</matcher>
+		</filter>
+	</filteredResources>
+</projectDescription>
