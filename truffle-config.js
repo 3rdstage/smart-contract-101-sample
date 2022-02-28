@@ -23,5 +23,19 @@ module.exports = {
         mnemonic, "https://rinkeby.infura.io/v3/" + process.env.INFURA_PROJECT_ID),
       network_id: '4',
     }
-  }  
+  },
+  
+  compilers: {
+    solc: {
+      version: "0.4.8",  // https://github.com/trufflesuite/truffle/releases/tag/v5.2.0
+      //parser: "solcjs",
+      settings: {
+        optimizer: {
+          enabled: false,
+          runs: 200
+        },
+        evmVersion: "istanbul"  // berlin, istanbul, petersburg, constantinople, byzantium
+      }
+    },
+  },
 }
