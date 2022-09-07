@@ -2,18 +2,11 @@
   "name": "smart-contract-101-sample",
   "version": "1.0.0",
   "description": "",
-  "main": "truffle-config.js",
-  "directories": {
-    "test": "test"
-  },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "devDependencies": {
     "@truffle/hdwallet-provider": "^2.0.3",
     "@remix-project/remixd": "^0.5.6"
+  },
+  "scripts": {
+    "ganache": "ganache --database.dbPath run/ganache/data -m \"army van defense carry jealous true garbage claim echo media make crunch\" -a 10 -n false -e 10000"
   }
 }
