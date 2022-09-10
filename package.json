@@ -4,9 +4,10 @@
   "description": "",
   "devDependencies": {
     "@truffle/hdwallet-provider": "^2.0.3",
-    "@remix-project/remixd": "^0.5.6"
+    "@remix-project/remixd": "~0.6.6"
   },
   "scripts": {
-    "ganache": "ganache --database.dbPath run/ganache/data -m \"army van defense carry jealous true garbage claim echo media make crunch\" -a 10 -n false -e 10000"
+    "ganache": "ganache --database.dbPath run/ganache/data -m \"army van defense carry jealous true garbage claim echo media make crunch\" -a 10 -n false -e 10000",
+    "remixd": "npx remixd --shared-folder ./ --remix-ide https://remix.ethereum.org"
   }
 }

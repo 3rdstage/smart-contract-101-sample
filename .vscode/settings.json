@@ -11,6 +11,7 @@
   "terminal.integrated.fontSize": 16,
 
   "files.encoding": "utf8",
+  "files.eol": "\n",
   "files.exclude": {
     "node_modules/[!@]*": true,
     "node_modules/@[!o]*": true,
@@ -32,13 +33,13 @@
     "run/besu/data": true
   },
 
-  "files.trimTrailingWhitespace": true, 
+  "files.trimTrailingWhitespace": true,
 
   "jshint.enable" : true,
   "jshint.config": ".jshintrc",
 
   "markdown.preview.fontSize": 16,
-  
+
   "cSpell.enableFiletypes": [
     "solidity"
   ],
