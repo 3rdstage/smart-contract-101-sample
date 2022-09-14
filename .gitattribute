@@ -42,8 +42,10 @@
 *.exe binary
 *.dll binary
 *.bin binary
+# compressed files
 *.zip binary
 *.7z binary
+# image files
 *.png binary
 *.jpeg binary
 *.jpg binary
@@ -51,13 +53,13 @@
 *.bmp binary
 *.tif binary
 *.tiff binary
+# media files
 *.mp3 binary
 *.mp4 binary
 *.avi binary
 *.flv binary
 *.ico binary
-*.class binary
-*.jar binary
+# document files
 *.doc binary
 *.docx binary
 *.xls binary
@@ -65,3 +67,6 @@
 *.ppt binary
 *.pptx binary
 *.pdf binary
+# misc
+*.class binary
+*.jar binary
