@@ -6,5 +6,11 @@ module.exports = {
       port: 8545,
       gasPrice: 0
     }
+  },
+
+  compilers: {
+    solc: {
+      version: "pragma"
+    }
   }
 }
