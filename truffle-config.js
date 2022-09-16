@@ -15,7 +15,7 @@ module.exports = {
       //https://github.com/trufflesuite/truffle/blob/develop/packages/hdwallet-provider/README.md
       provider: () => new HDWalletProvider(
         mnemonic, "https://mainnet.infura.io/v3/" + process.env.INFURA_PROJECT_ID),
-      network_id: '1',
+      network_id: 1,
       skipDryRun: false,
       disableConfirmationListener: true
 
@@ -24,7 +24,7 @@ module.exports = {
     rinkeby: {
       provider: () => new HDWalletProvider(
         mnemonic, "https://rinkeby.infura.io/v3/" + process.env.INFURA_PROJECT_ID),
-      network_id: '4',
+      network_id: 4,
       skipDryRun: true,
       disableConfirmationListener: true
     }
