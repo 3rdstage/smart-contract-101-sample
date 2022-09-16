@@ -7,12 +7,10 @@ pragma solidity ^0.8.0;
 import "./IERC20Base.sol";
 
 // https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/token/ERC20/ERC20.sol
-contract ERC20Base is IERC20Base {
+abstract contract ERC20Base is IERC20Base {
 
     mapping(address => uint256) private _balances;
-
     mapping(address => mapping(address => uint256)) private _allowances;
-
     uint256 private _totalSupply;
  
     function totalSupply() public view virtual override returns (uint256) {
